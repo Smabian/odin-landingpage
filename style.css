@@ -1,0 +1,41 @@
+/* Dark Background Color */
+
+body {
+    font-family: sans-serif;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:900;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.lightblue {
+    background-color: #3882F6;
+}
+
+.largetext {
+    font-size:36;
+    color: #1F2973;
+    font-weight:900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+}
+
