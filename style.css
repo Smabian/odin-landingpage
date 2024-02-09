@@ -9,6 +9,11 @@ body {
 
 .hero, .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer {
+    text-align: center;
 }
 
 /* Header Design */
@@ -16,6 +21,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 .logo {
@@ -32,16 +38,31 @@ body {
 }
 
 /* Main Stage Design */
+.mainStage {
+    display: flex;
+    padding: 15px;
+}
 
 h1 {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight:900;
 }
 
 .herotext {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signUp {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 30px;
 }
 
 
@@ -56,8 +77,17 @@ h1 {
     font-weight:900;
 }
 
+.informationItems {
+    display: flex;
+}
+
 .quote {
     background-color: #E5E7EB;
     font-style: italic;
 }
 
+.callAction {
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+}
