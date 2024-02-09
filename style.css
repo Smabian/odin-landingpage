@@ -2,11 +2,36 @@
 
 body {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .hero, .footer {
     background-color: #1F2937;
 }
+
+/* Header Design */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.navigation > ul {
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Main Stage Design */
 
 h1 {
     font-size: 48px;
@@ -19,10 +44,7 @@ h1 {
     color: #E5E7EB;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
+
 
 .lightblue {
     background-color: #3882F6;
