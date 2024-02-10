@@ -1,6 +1,6 @@
 
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -95,15 +95,16 @@ body {
 
 /* Info Section */
 
-.information {
+.information, .quote {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 0;
 }
 
 .mediumheader {
-    margin: 40px 0;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .informationItems {
@@ -124,7 +125,26 @@ body {
     border-radius: 20px;
 }
 
+/* Quote Section */
 
+.quote {
+    padding: 40px 0;
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-style: italic;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding-left: 50px;
+}
+
+.quoteby {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bolder;
+}
 
 
 /* Main Stage Design */
@@ -139,12 +159,6 @@ body {
     font-weight:900;
 }
 
-
-
-.quote {
-    background-color: #E5E7EB;
-    font-style: italic;
-}
 
 .callAction {
     border-radius: 20px;
