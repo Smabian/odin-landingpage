@@ -95,7 +95,7 @@ body {
 
 /* Info Section */
 
-.information, .quote {
+.information, .quote, .action {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,22 +147,40 @@ body {
 }
 
 
-/* Main Stage Design */
+/* Action Section*/
 
-.lightblue {
+.action > .container {
     background-color: #3882F6;
-}
-
-.largetext {
-    font-size:36;
-    color: #1F2973;
-    font-weight:900;
-}
-
-
-.callAction {
-    border-radius: 20px;
-    margin: 40px;
+    border-radius: 15px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 30px 0;
 }
 
+.actioncall {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.actioncall > h3, p {
+    margin: 10px;
+}
+
+.signupbutton {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.signupbutton > button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
