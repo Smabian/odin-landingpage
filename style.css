@@ -47,13 +47,59 @@ body {
 
 .main {
     flex-basis: 1000px;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    gap: 10%;
 }
+
+.heroText {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.heroText > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0;
+}
+
+.heroText > button {
+    background-color: #3882F6; 
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.heroImage {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.heroImage > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+
 
 .footer {
     text-align: center;
 }
 
-/* Header Design */
 
 
 
@@ -67,33 +113,6 @@ body {
     padding: 15px;
     flex-basis: 0%;
 }
-
-h1 {
-    font-size: 48px;
-    font-weight:900;
-}
-
-.herotext {
-    font-size: 18px;
-    color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.signUp {
-    color: white;
-    background-color: #3882F6;
-    border-radius: 5px;
-    border: 0;
-    font-weight: bold;
-    padding: 10px 30px;
-}
-
-.mainImage > img {
-    max-width: 300px;
-}
-
 
 .lightblue {
     background-color: #3882F6;
