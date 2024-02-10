@@ -65,6 +65,9 @@ h1 {
     padding: 10px 30px;
 }
 
+.mainImage > img {
+    max-width: 300px;
+}
 
 
 .lightblue {
@@ -90,4 +93,9 @@ h1 {
     border-radius: 20px;
     margin: 40px;
     display: flex;
+}
+
+.item > img {
+    max-width: 150px;
+    border-radius: 20px;
 }
