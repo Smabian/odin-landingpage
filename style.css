@@ -10,6 +10,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: center;
+    display: flex;
 }
 
 .container {
@@ -18,10 +19,6 @@ body {
 }
 
 /* Hero Top Area */ 
-
-.hero {
-    display: flex;
-}
 
 .header {
     display: flex;
@@ -92,27 +89,45 @@ body {
     border-radius: 5px;
 }
 
-
-
-
-
 .footer {
     text-align: center;
 }
 
+/* Info Section */
 
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.mediumheader {
+    margin: 40px 0;
+    text-align: center;
+}
 
+.informationItems {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    gap: 5%;
+}
+
+.item {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.item > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
 
 
 
 
 /* Main Stage Design */
-.mainStage {
-    display: flex;
-    padding: 15px;
-    flex-basis: 0%;
-}
 
 .lightblue {
     background-color: #3882F6;
@@ -124,9 +139,7 @@ body {
     font-weight:900;
 }
 
-.informationItems {
-    display: flex;
-}
+
 
 .quote {
     background-color: #E5E7EB;
@@ -139,7 +152,3 @@ body {
     display: flex;
 }
 
-.item > img {
-    max-width: 150px;
-    border-radius: 20px;
-}
